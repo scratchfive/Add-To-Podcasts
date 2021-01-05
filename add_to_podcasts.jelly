@@ -1,0 +1,8 @@
+import Shortcuts 1092.8.6
+#Color: green,#Icon: feedRight
+alert(alert: Error: Unsupported URL, title: , cancel: false)
+exit()
+replaceText(input: +(Shortcut Input), find: https://open.spotify.com/show, replace: podcast://spotifeed.timdorr.com, isRegex: false, cSensitive: false) ->[replaceText]
+splitText(text: Updated Text, separator: Custom, customSeparator: ?) ->[splitText]
+openURL(url: Item from List)
+exit()
